@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Politique de Confidentialité - Beauty Board</title>
+    <title>Privacy Policy - Beauty Board</title>
     <style>
         * {
             margin: 0;
@@ -86,6 +86,14 @@
             margin-top: 30px;
             font-size: 0.9em;
         }
+        .back-link {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .back-link a {
+            color: #e91e63;
+            text-decoration: none;
+        }
         @media (max-width: 600px) {
             .card {
                 padding: 25px;
@@ -99,107 +107,113 @@
 <body>
     <div class="container">
         <div class="card">
+            <div class="back-link">
+                <a href="index.html">← Back to Home</a>
+            </div>
+            
             <div class="logo">
                 <h1>💅 Beauty Board</h1>
-                <p>Application de gestion pour instituts de beauté</p>
+                <p>Management app for beauty salons</p>
             </div>
 
-            <h1 style="text-align: center; color: #333; margin-bottom: 30px;">Politique de Confidentialité</h1>
+            <h1 style="text-align: center; color: #333; margin-bottom: 30px;">Privacy Policy</h1>
 
             <div class="highlight">
-                <strong>Résumé :</strong> Beauty Board respecte votre vie privée. Nous collectons uniquement les données nécessaires au fonctionnement de l'application et ne les partageons jamais avec des tiers à des fins commerciales.
+                <strong>Summary:</strong> Beauty Board respects your privacy. We only collect data necessary for the app to function and never share it with third parties for commercial purposes.
             </div>
 
             <h2>1. Introduction</h2>
-            <p>Cette politique de confidentialité explique comment Beauty Board ("nous", "notre", "l'application") collecte, utilise et protège vos informations personnelles lorsque vous utilisez notre application mobile de gestion pour instituts de beauté.</p>
+            <p>This privacy policy explains how Beauty Board ("we", "our", "the app") collects, uses, and protects your personal information when you use our mobile management application for beauty salons.</p>
 
-            <h2>2. Données collectées</h2>
+            <h2>2. Data Collected</h2>
             
-            <h3>2.1 Informations de compte</h3>
+            <h3>2.1 Account Information</h3>
             <ul>
-                <li>Adresse email</li>
-                <li>Nom et prénom</li>
-                <li>Informations de l'institut (nom, adresse, téléphone, SIRET)</li>
+                <li>Email address</li>
+                <li>First and last name</li>
+                <li>Salon information (name, address, phone, business ID)</li>
             </ul>
 
-            <h3>2.2 Données métier</h3>
+            <h3>2.2 Business Data</h3>
             <ul>
-                <li>Liste des clients et leurs coordonnées</li>
-                <li>Rendez-vous et historique</li>
-                <li>Services et tarifs</li>
-                <li>Paiements et reçus</li>
+                <li>Client list and contact information</li>
+                <li>Appointments and history</li>
+                <li>Services and pricing</li>
+                <li>Payments and receipts</li>
             </ul>
 
-            <h3>2.3 Données Google Calendar</h3>
-            <p>Si vous activez la synchronisation Google Calendar, nous accédons à :</p>
+            <h3>2.3 Google Calendar Data</h3>
+            <p>If you enable Google Calendar synchronization, we access:</p>
             <ul>
-                <li>Vos événements de calendrier (lecture et écriture)</li>
-                <li>Pour afficher vos disponibilités et synchroniser les rendez-vous</li>
+                <li>Your calendar events (read and write)</li>
+                <li>To display your availability and sync appointments</li>
             </ul>
             <div class="highlight">
-                <strong>Important :</strong> L'accès à Google Calendar est optionnel. Vous pouvez utiliser Beauty Board sans cette fonctionnalité. Nous n'accédons qu'aux données nécessaires à la synchronisation des rendez-vous.
+                <strong>Important:</strong> Google Calendar access is optional. You can use Beauty Board without this feature. We only access data necessary for appointment synchronization.
             </div>
 
-            <h2>3. Utilisation des données</h2>
-            <p>Vos données sont utilisées pour :</p>
+            <h2>3. How We Use Your Data</h2>
+            <p>Your data is used to:</p>
             <ul>
-                <li>Gérer vos rendez-vous et clients</li>
-                <li>Générer des reçus et statistiques</li>
-                <li>Synchroniser avec Google Calendar (si activé)</li>
-                <li>Sauvegarder vos données de manière sécurisée</li>
-                <li>Vous envoyer des notifications de rappel (si activées)</li>
+                <li>Manage your appointments and clients</li>
+                <li>Generate receipts and statistics</li>
+                <li>Sync with Google Calendar (if enabled)</li>
+                <li>Securely backup your data</li>
+                <li>Send reminder notifications (if enabled)</li>
             </ul>
 
-            <h2>4. Stockage et sécurité</h2>
+            <h2>4. Storage and Security</h2>
             <ul>
-                <li>Vos données sont stockées sur <strong>Firebase (Google Cloud Platform)</strong></li>
-                <li>Transmission chiffrée via <strong>HTTPS/TLS</strong></li>
-                <li>Authentification sécurisée via Firebase Authentication</li>
-                <li>Données sensibles stockées dans le <strong>Keychain iOS</strong></li>
-                <li>Accès restreint par règles de sécurité Firestore</li>
+                <li>Your data is stored on <strong>Firebase (Google Cloud Platform)</strong></li>
+                <li>Encrypted transmission via <strong>HTTPS/TLS</strong></li>
+                <li>Secure authentication via Firebase Authentication</li>
+                <li>Sensitive data stored in <strong>iOS Keychain</strong></li>
+                <li>Access restricted by Firestore security rules</li>
             </ul>
 
-            <h2>5. Partage des données</h2>
-            <p><strong>Nous ne vendons jamais vos données.</strong></p>
-            <p>Vos données peuvent être partagées uniquement avec :</p>
+            <h2>5. Data Sharing</h2>
+            <p><strong>We never sell your data.</strong></p>
+            <p>Your data may only be shared with:</p>
             <ul>
-                <li><strong>Firebase/Google Cloud</strong> : hébergement et stockage</li>
-                <li><strong>Google Calendar</strong> : synchronisation (si activée par vous)</li>
+                <li><strong>Firebase/Google Cloud</strong>: hosting and storage</li>
+                <li><strong>Google Calendar</strong>: synchronization (if enabled by you)</li>
             </ul>
 
-            <h2>6. Vos droits (RGPD)</h2>
-            <p>Conformément au RGPD, vous avez le droit de :</p>
+            <h2>6. Your Rights (GDPR)</h2>
+            <p>In accordance with GDPR, you have the right to:</p>
             <ul>
-                <li><strong>Accéder</strong> à vos données personnelles</li>
-                <li><strong>Rectifier</strong> les informations inexactes</li>
-                <li><strong>Supprimer</strong> vos données ("droit à l'oubli")</li>
-                <li><strong>Exporter</strong> vos données dans un format portable</li>
-                <li><strong>Retirer</strong> votre consentement à tout moment</li>
+                <li><strong>Access</strong> your personal data</li>
+                <li><strong>Rectify</strong> inaccurate information</li>
+                <li><strong>Delete</strong> your data ("right to be forgotten")</li>
+                <li><strong>Export</strong> your data in a portable format</li>
+                <li><strong>Withdraw</strong> your consent at any time</li>
             </ul>
-            <p>Pour exercer ces droits, contactez-nous à l'adresse ci-dessous.</p>
+            <p>To exercise these rights, contact us at the address below.</p>
 
-            <h2>7. Conservation des données</h2>
+            <h2>7. Data Retention</h2>
             <ul>
-                <li>Vos données sont conservées tant que votre compte est actif</li>
-                <li>Après suppression du compte, les données sont effacées sous 30 jours</li>
-                <li>Les reçus peuvent être conservés selon les obligations légales (10 ans)</li>
+                <li>Your data is retained as long as your account is active</li>
+                <li>After account deletion, data is erased within 30 days</li>
+                <li>Receipts may be retained per legal requirements (up to 10 years)</li>
             </ul>
 
-            <h2>8. Cookies et traceurs</h2>
-            <p>L'application Beauty Board n'utilise pas de cookies publicitaires ni de traceurs tiers. Seuls des identifiants techniques nécessaires au fonctionnement sont utilisés.</p>
+            <h2>8. Cookies and Trackers</h2>
+            <p>The Beauty Board app does not use advertising cookies or third-party trackers. Only technical identifiers necessary for operation are used.</p>
 
-            <h2>9. Modifications</h2>
-            <p>Cette politique peut être mise à jour. En cas de changement majeur, vous serez notifié via l'application.</p>
+            <h2>9. Changes</h2>
+            <p>This policy may be updated. In case of significant changes, you will be notified through the app.</p>
+
+            <h2>10. Google API Services User Data Policy</h2>
+            <p>Beauty Board's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
 
             <div class="contact">
                 <h3>📧 Contact</h3>
-                <p>Pour toute question concernant vos données :</p>
-                <p><a href="mailto:contact@beautyboard.app">contact@beautyboard.app</a></p>
+                <p>For any questions about your data:</p>
+                <p><a href="mailto:music.music.music.music.music.music@gmail.com">music.music.music.music.music.music@gmail.com</a></p>
             </div>
 
-            <p class="date">Dernière mise à jour : 1er décembre 2024</p>
+            <p class="date">Last updated: December 1, 2024</p>
         </div>
     </div>
 </body>
 </html>
-
