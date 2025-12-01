@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Board - Documents Légaux</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #fce4ec 0%, #e8eaf6 50%, #c5cae9 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 30px;
+            padding: 50px 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+        .logo {
+            font-size: 4em;
+            margin-bottom: 10px;
+        }
+        h1 {
+            font-size: 2.5em;
+            background: linear-gradient(135deg, #e91e63, #9c27b0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+        }
+        .tagline {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 40px;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .link-card {
+            display: flex;
+            align-items: center;
+            padding: 20px 25px;
+            border-radius: 15px;
+            text-decoration: none;
+            color: white;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .link-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .link-card.privacy {
+            background: linear-gradient(135deg, #e91e63, #ad1457);
+        }
+        .link-card.terms {
+            background: linear-gradient(135deg, #5c6bc0, #3949ab);
+        }
+        .link-icon {
+            font-size: 2em;
+            margin-right: 15px;
+        }
+        .link-text {
+            text-align: left;
+        }
+        .link-title {
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+        .link-desc {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        .footer {
+            margin-top: 40px;
+            color: #999;
+            font-size: 0.9em;
+        }
+        .footer a {
+            color: #e91e63;
+            text-decoration: none;
+        }
+        @media (max-width: 500px) {
+            .card {
+                padding: 30px 20px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            .logo {
+                font-size: 3em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="logo">💅</div>
+            <h1>Beauty Board</h1>
+            <p class="tagline">Application de gestion pour instituts de beauté</p>
+
+            <div class="links">
+                <a href="privacy-policy.html" class="link-card privacy">
+                    <span class="link-icon">🔒</span>
+                    <div class="link-text">
+                        <div class="link-title">Politique de Confidentialité</div>
+                        <div class="link-desc">Comment nous protégeons vos données</div>
+                    </div>
+                </a>
+
+                <a href="terms-of-service.html" class="link-card terms">
+                    <span class="link-icon">📜</span>
+                    <div class="link-text">
+                        <div class="link-title">Conditions d'Utilisation</div>
+                        <div class="link-desc">Règles d'utilisation du service</div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="footer">
+                <p>© 2024 Beauty Board</p>
+                <p><a href="mailto:contact@beautyboard.app">contact@beautyboard.app</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
